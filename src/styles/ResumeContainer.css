@@ -1,0 +1,5 @@
+div.resume-container .header, div.resume-container section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%; }

@@ -1,0 +1,13 @@
+.work {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0 3em;
+  width: 100%; }
+
+.work .work-img {
+  margin: 1.5em;
+  width: 25%;
+  height: 10em;
+  border: .1em solid black;
+  background-color: #d8d3d3; }

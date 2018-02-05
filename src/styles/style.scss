@@ -1,0 +1,64 @@
+.resume-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    .header{
+        width: 100%;
+    }
+    
+    .about{
+        width: 100%;
+        .about-img{
+            background-color: grey;
+            margin: 1em 0;
+            width: 45%;
+            height: 15em;
+            padding: 2em;
+            border: .1em solid black;
+        }
+    
+        .about-description{
+            margin: 1em 0;
+            width: 45%;
+            height: 15em;
+            padding: 2em;
+            border: .1em solid black;
+          }
+          
+          .summary{
+            margin: 1em 0;
+            width: 75%;
+            height: 15em;
+            border: .1em solid black;
+            background-color: rgb(216, 211, 211);
+          }
+    }
+
+    .experience{
+        width: 100%;
+
+        .exp-group{
+            margin: 1.5em;
+            width: 40%;
+            height: 10em;
+            /* padding: 2em; */
+          }
+          
+    }
+
+    .work{
+        width: 100%;
+        margin: 0 3em;
+
+        .work-img{
+            margin: 1.5em;
+            width: 25%;
+            height: 10em;
+          
+            border: .1em solid black;
+            background-color: rgb(216, 211, 211);
+          }
+    }
+
+}

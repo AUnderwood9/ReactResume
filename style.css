@@ -1,0 +1,43 @@
+.resume-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+  .resume-container .header {
+    width: 100%; }
+  .resume-container .about {
+    width: 100%; }
+    .resume-container .about .about-img {
+      background-color: grey;
+      margin: 1em 0;
+      width: 45%;
+      height: 15em;
+      padding: 2em;
+      border: .1em solid black; }
+    .resume-container .about .about-description {
+      margin: 1em 0;
+      width: 45%;
+      height: 15em;
+      padding: 2em;
+      border: .1em solid black; }
+    .resume-container .about .summary {
+      margin: 1em 0;
+      width: 75%;
+      height: 15em;
+      border: .1em solid black;
+      background-color: #d8d3d3; }
+  .resume-container .experience {
+    width: 100%; }
+    .resume-container .experience .exp-group {
+      margin: 1.5em;
+      width: 40%;
+      height: 10em;
+      /* padding: 2em; */ }
+  .resume-container .work {
+    width: 100%;
+    margin: 0 3em; }
+    .resume-container .work .work-img {
+      margin: 1.5em;
+      width: 25%;
+      height: 10em;
+      border: .1em solid black;
+      background-color: #d8d3d3; }
