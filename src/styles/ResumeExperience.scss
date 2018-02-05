@@ -1,8 +1,26 @@
-.experience{
+@import "utilities/utilities";
+@import "utilities/utilities_text_utilities";
+@import "utilities/utilities_basic_decoration";
 
+.experience{
     .exp-group{
         margin: 1.5em;
         width: 40%;
         height: 10em;
+        .exp-company{
+            width: 100%;
+            @include text_size(3em);
+        }
+        img{
+            float: right;
+            margin-top: .5em;
+            width: 5%;
+            height: 5%;
+        }
+        .exp-description{
+            @include top_line();
+            margin-top: .5em;
+        }
       }
+      
   }

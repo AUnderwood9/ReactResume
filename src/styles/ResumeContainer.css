@@ -1,3 +1,6 @@
+div.resume-container {
+  margin: 0 15em 0 15em; }
+
 div.resume-container .header, div.resume-container section {
   display: flex;
   flex-flow: row wrap;

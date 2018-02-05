@@ -1,21 +1,55 @@
 .about .about-img {
-  background-color: grey;
-  margin: 1em 0;
+  flex-grow: 1;
   width: 45%;
-  height: 15em;
-  padding: 2em;
-  border: .1em solid black; }
+  height: auto; }
+
+.about .about-img img {
+  width: 50%;
+  height: 80%; }
 
 .about .about-description {
-  margin: 1em 0;
+  position: absolute;
+  flex-grow: 1;
   width: 45%;
-  height: 15em;
-  padding: 2em;
-  border: .1em solid black; }
+  height: auto;
+  top: 35em;
+  right: 10em; }
+
+.about .about-description .about-description-top {
+  white-space: nowrap;
+  color: darkorange;
+  font-size: 5em;
+  margin: 0; }
+
+.about .about-description .about-description-btm {
+  margin: 0;
+  font-size: 2em; }
 
 .about .summary {
-  margin: 1em 0;
-  width: 75%;
-  height: 15em;
-  border: .1em solid black;
-  background-color: #d8d3d3; }
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  background-color: #F6F6F6; }
+
+.about .summary .summary-left {
+  margin: auto 1em auto 0;
+  text-align: right; }
+
+.about .summary .summary-left h2 {
+  margin: 0;
+  font-size: 4em; }
+
+.about .summary .summary-left h3 {
+  margin: 0;
+  font-size: 1.5em; }
+
+.about .summary .summary-left h4 {
+  margin: 0;
+  font-size: 1.2em; }
+
+.about .summary .summary-right h5 {
+  border: 0.1em solid black;
+  padding: 3em;
+  font-size: 0.95em;
+  width: 20em; }

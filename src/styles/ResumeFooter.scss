@@ -1,0 +1,18 @@
+@import "utilities/utilities";
+@import "utilities/utilities_text_utilities";
+@import "utilities/utilities_basic_decoration";
+
+footer{
+    @include top_line();
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+    .footer-img{
+        width: 5%;
+    }
+
+    .footer-text{
+        text-align: center;
+        margin: auto 0;
+    }
+}

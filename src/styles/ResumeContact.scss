@@ -1,0 +1,24 @@
+@import "utilities/utilities";
+@import "utilities/utilities_text_utilities";
+@import "utilities/utilities_basic_decoration";
+
+section{
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 5em;
+    input{
+        width: 65%;
+        height: 5em;
+        margin: 1em 0 1em 0;
+    }
+    .message-box{
+        height: 25em;
+        margin-bottom: 0em;
+    }
+
+    button{
+        @include background_color($dark_orange);
+        @include text_color($white);
+        @include text_alignment(center);
+    }
+}

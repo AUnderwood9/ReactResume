@@ -1,3 +1,24 @@
+@import "utilities/utilities";
+@import "utilities/utilities_text_utilities";
+
 .header{
     width: 100%;
+    margin: 1em 0 2.5em 0;
+
+    .name-headline{
+      margin-right: auto;
+      @include add_border();
+      @include text_color($dark_orange);
+    }
+
+    .nav-bar-container{
+      margin-left: auto;
+    }
+    ul{
+      margin: 0;
+    }
+    li{
+      display: inline;
+      padding: 0 1em 0 1em;
+    }
   }

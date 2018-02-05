@@ -1,27 +1,65 @@
-.about{
+@import "utilities/utilities";
+@import "utilities/utilities_text_utilities";
+@import "utilities/utilities_basic_decoration";
 
+.about{
     .about-img{
-        background-color: grey;
-        margin: 1em 0;
+        flex-grow: 1;
         width: 45%;
-        height: 15em;
-        padding: 2em;
-        border: .1em solid black;
+        height: auto;
+        img{
+          width: 50%;
+          height: 80%;
+        }
       }
 
       .about-description{
-        margin: 1em 0;
+        position: absolute;
+        flex-grow: 1;
         width: 45%;
-        height: 15em;
-        padding: 2em;
-        border: .1em solid black;
+        height: auto;
+        top: 35em;
+        right: 10em;
+        .about-description-top{
+          white-space: nowrap;
+          @include text_color($dark_orange);
+          @include text_size(5em);
+          margin: 0;
+        }
+        .about-description-btm{
+          margin: 0;
+          @include text_size(2em);
+        }
       }
 
       .summary{
-        margin: 1em 0;
-        width: 75%;
-        height: 15em;
-        border: .1em solid black;
-        background-color: rgb(216, 211, 211);
+        display: inline-flex;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        @include background_color($off_white);
+        .summary-left{
+          margin: auto 1em auto 0;
+          text-align: right;
+          h2{
+            margin: 0;
+            @include text_size(4em);
+          }
+          h3{
+            margin: 0;
+            @include text_size(1.5em);
+          }
+          h4{
+            margin: 0;
+            @include text_size(1.2em);
+          }
+        }
+        .summary-right{
+          h5{
+            @include add_border(.1em, 3em);
+            @include text_size(.95em);
+            width: 20em;
+          }
+        }
       }
   }  

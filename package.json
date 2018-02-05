@@ -20,5 +20,13 @@
   "devDependencies": {},
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AUnderwood9/ReactResume.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AUnderwood9/ReactResume/issues"
+  },
+  "homepage": "https://github.com/AUnderwood9/ReactResume#readme"
 }

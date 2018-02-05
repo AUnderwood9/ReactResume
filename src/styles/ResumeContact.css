@@ -1,0 +1,18 @@
+section {
+  display: inline-flex;
+  width: 100%;
+  margin-bottom: 5em; }
+
+section input {
+  width: 65%;
+  height: 5em;
+  margin: 1em 0 1em 0; }
+
+section .message-box {
+  height: 25em;
+  margin-bottom: 0em; }
+
+section button {
+  background-color: darkorange;
+  color: white;
+  text-align: center; }

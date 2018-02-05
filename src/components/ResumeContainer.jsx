@@ -8,16 +8,19 @@ import AboutContent from './AboutContent';
 import ResumeInfo from './ResumeInfo';
 import ExperienceDescription from './ExperienceDescription';
 import WorkImages from './WorkImages';
+import ResumeFooter from './ResumeFooter';
+import FooterContent from './FooterContent';
 import './../styles/ResumeContainer.css';
 
 function ResumeContainer(props){
     return(
         <div className="resume-container">
-            <ResumeHeader />
+            <ResumeHeader resumeInfo = {ResumeInfo}/>
             <ResumeAbout aboutContent = {AboutContent} resumeInfo = {ResumeInfo}/>
             <ResumeExperience experienceList = {ExperienceDescription}/>
             <ResumeWork imageList = {WorkImages} />
             <ResumeContact resumeInfo = {ResumeInfo}/>
+            <ResumeFooter footerInfo = {FooterContent}/>
         </div>     
     )
 }
