@@ -8,6 +8,10 @@ section input {
   height: 5em;
   margin: 1em 0 1em 0; }
 
+section form {
+  margin: 0 auto;
+  width: 100%; }
+
 section .message-box {
   height: 25em;
   margin-bottom: 0em; }
