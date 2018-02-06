@@ -1,22 +1,46 @@
 section {
   display: inline-flex;
+  justify-content: center;
   width: 100%;
   margin-bottom: 5em; }
 
 section input {
-  width: 65%;
+  width: 100%;
   height: 5em;
   margin: 1em 0 1em 0; }
 
-section form {
-  margin: 0 auto;
+section .contact-text {
+  display: inline-flex;
+  justify-content: space-between;
   width: 100%; }
+
+section .contact-text .left-contact-text {
+  margin: 0; }
+
+section .contact-text h4 {
+  font-size: 1.1em; }
+
+section .contact-text .right-contact-text-top,
+section .contact-text .right-contact-text-btm {
+  margin: 0;
+  text-align: right; }
+
+section .contact-text .right-contact-text-top {
+  font-size: 2em; }
+
+section form {
+  width: 85%; }
 
 section .message-box {
   height: 25em;
   margin-bottom: 0em; }
 
-section button {
+section .btn {
   background-color: darkorange;
   color: white;
-  text-align: center; }
+  text-align: center;
+  width: 10%;
+  padding: 1.5em;
+  margin: .5em 0 0 60em;
+  border-radius: .75em;
+  border: none; }

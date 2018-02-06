@@ -7,13 +7,18 @@ function ResumeHeader(props){
             <span className="name-headline">{props.resumeInfo[0].profileName}</span>
             <nav className="nav-bar-container">
                 <ul>
-                    <li>About</li>
-                    <li>Experience</li>
-                    <li>Work</li>
-                    <li>Contact</li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Experience</a></li>
+                    <li><a href="">Work</a></li>
+                    <li><a href="">Contact</a></li>
                 </ul>
             </nav>
         </div>
+        
+        
+        
+        
+        
     );
 }
 
